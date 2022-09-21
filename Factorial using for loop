@@ -12,8 +12,6 @@ public class Main
 		    fact=fact*i;
 		}
 		System.out.println("Factorial of "+num+" is "+fact);
-		
-		
-	    
+		System.exit(0);
 	}
 }
