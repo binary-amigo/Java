@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		//time in months
+		int principal,time;
+		float rate,SI,amount;
+		Scanner sc=new Scanner (System.in);
+		System.out.println("Enter Principal: ");
+		principal=sc.nextInt();
+		System.out.println("Enter rate: ");
+		rate=sc.nextFloat();
+		System.out.println("Enter time: ");
+		time=sc.nextInt();
+		SI=(principal*rate*time)/100;
+		System.out.println("Interest you will be getting after "+time+" months will be "+SI+"\n");
+		amount=principal + SI;
+		System.out.println("Your investment will become "+amount);
+		System.exit(0);
+	}
+}
