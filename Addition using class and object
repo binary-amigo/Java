@@ -1,0 +1,28 @@
+import java.util.*;
+class ruchi{
+    int a,b,c;
+    void getdata()
+    {
+        Scanner rani=new Scanner(System.in);
+        System.out.println("Kripya pehla ank daliye:");
+        a=rani.nextInt();
+        System.out.println("Dhanyawaad");
+        System.out.println("Kripya doosra ank daliye:");
+        b=rani.nextInt();
+        System.out.println("Dhanyawaad");
+    }
+    void printdata()
+    {
+        c=a+b;
+        System.out.println("Jodkar uttar aya: "+c);
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		ruchi sahu=new ruchi();
+		sahu.getdata();
+		sahu.printdata();
+		
+	}
+}
