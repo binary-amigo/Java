@@ -1,0 +1,31 @@
+import java.util.*;
+class demo
+{
+    int a,b;
+    demo(demo t)
+    {
+        a=t.a;
+        a++;
+        b=t.b;
+        b++;
+    }
+    demo(int x,int y)
+    {
+        a=x;
+        b=y;
+    }
+    void printd()
+    {
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+    }
+}
+public class Main{
+    public static void main(String arg[])
+    {
+        demo d1=new demo(12,67);
+        demo d2=new demo(d1);
+        d1.printd();
+        d2.printd();
+    }
+}
