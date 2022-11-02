@@ -1,0 +1,22 @@
+import java.util.*;
+class demo
+{
+    int a,b;
+    demo()
+    {
+        a=0;
+        b=0;
+    }
+    void printd()
+    {
+        System.out.println("a="+a);
+        System.out.println("b="+b);
+    }
+}
+public class Main{
+    public static void main(String arg[])
+    {
+        demo d1=new demo();
+        d1.printd();
+    }
+}
